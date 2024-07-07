@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+html{
+    background-color: rgba(34, 44, 234, 0.888);
+}
+body{
+    position: relative;
+}
+/* header */
+/* navigation bar */
+.nav-bar{
+    background-color: #131921;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-logo{
+    height: 60px;
+    width: 170px;
+}
+.logo{
+    background-image: url(./amazon-logo.png);
+    height: 60px;
+    width: 100%;
+    background-size: cover;
+}
+.logo:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#country{
+    font-size: 25px;
+}
+.address{
+    width: 88.64px;
+}
+#deliver{
+    position: relative;
+    left: 18px;
+}
+.location{
+    display: inline-block;
+}
+.address:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#catagory{
+    height: 45px;
+    width: 51.6px;
+    background-color: #e6e6e6;
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
+}
+.search-bar{
+    display: flex;
+    border: none;
+}
+.search-bar:hover{
+    border:2px solid rgb(236, 167, 94) ;
+    border-radius: 5px;
+}
+.search{
+    height: 45px;
+    width: 794px;
+}
+input{
+    height: 100%;
+    width: 100%;
+}
+.search-button{
+    height: 45px;
+    width: 45px;
+}
+button{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(236, 167, 94);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+button:hover{
+    background-color: rgb(231, 134, 31);
+}
+.line1{
+    font-size:12px ;
+}
+.line2{
+    font-size: 14px;
+    font-weight: 650;
+}
+.sign-in{
+    height: 50px;
+    width: 131px;
+}
+.sign-in:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.orders{
+    height: 50px;
+    width: 77px;
+}
+.orders:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.cart{
+    height: 50px;
+    width: 84px;
+    font-size: 14px;
+    font-weight: 650;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart i {
+    font-size: 35px;
+}
+.cart:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+/* pannel */
+.pannel{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 39px;
+    color: white;
+    background-color:#222f3d;
+}
+.pannel-ops{
+    width: 70%;
+    justify-content: flex-start;
+    align-items: center;
+}
+.pannel-ops p{
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 10px;
+}
+.pannel-ops p:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.all{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:59px;
+    height: 39px;
+}
+.all:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#elec{
+    margin-left: 160px;
+    font-weight: 600;
+}
+/* hero section */
+.hero-section{
+    background-image: url(./Hero-image.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-msg{
+    background-color: rgba(255, 255, 255, 0.936);
+    height: 40px;
+    width: 1450px;
+    padding: 10px 14px;
+    text-align: center;
+}
+.hero-msg p{
+    display: inline-block;
+}
+.hero-msg a{
+    text-decoration-style: none;
+    color: #007185;
+}
+.shop-section{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 450px;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+}
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box h1{
+    font-size: 21px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.box1 .img img{
+    height: 110px;
+    width: 160px;
+    margin: 5px;
+}
+.box1 .img p{
+    font-size: 12px;
+    margin-left: 20px;
+}
+#see-more a{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 13px ;
+    color: #007185;
+    text-decoration: none;
+}
+.box2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box2 .img img{
+    height: 110px;
+    width: 130px;
+    margin: 20px;
+}
+.box2 .img p{
+    font-size: 12px;
+    margin-left: 20px;
+}
+.box4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box4 .img img{
+    height: 110px;
+    width: 130px;
+    margin: 20px;
+}
+.box4 .img p{
+    font-size: 12px;
+    margin-left: 20px;
+}
+.box3 div img{
+    width: 90%;
+    height: 304px;
+    margin: 15px;
+} 
