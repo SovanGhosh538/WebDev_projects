@@ -24,7 +24,7 @@ body{
     width: 170px;
 }
 .logo{
-    background-image: url(./amazon-logo.png);
+    background-image: url(./images/amazon-logo.png);
     height: 60px;
     width: 100%;
     background-size: cover;
@@ -167,7 +167,7 @@ button:hover{
 }
 /* hero section */
 .hero-section{
-    background-image: url(./Hero-image.jpg);
+    background-image: url(./images/Hero-image.jpg);
     background-size: cover;
     height: 600px;
     display: flex;
