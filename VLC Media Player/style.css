@@ -1,0 +1,76 @@
+/* Header */
+header{
+    height:80px;
+    background-color: rgb(238,238,238);
+}
+.title-bar{
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
+.title-bar h1{
+    font-size: 1.2rem;
+}
+.title-bar img{
+    height: 60%;
+    margin-left: 16px;
+}
+.options-bar{
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
+.options-bar .menu{
+    margin-left: 20px;
+}
+.options-bar .menu{
+    position: relative;
+}
+.video-input{
+    display: none;
+}
+.options-bar .menu .menu-item{
+    background-color: rgb(238,238,238);
+    position: absolute;
+    top: 10px;
+    width: 110px;
+    list-style-type:none;
+    padding-left: 0;
+    display: none;
+}
+.menu-item li{
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+.menu-item li:hover{
+    background-color: rgba(0, 0, 0, 0.132);
+}
+.menu .menu-btn,.open-btn{
+    height: 25px;
+    padding-top: 3px;
+}
+.menu .menu-btn:hover, .open-btn:hover{
+    background-color: rgba(9, 9, 212, 0.13);
+}
+.menu:hover .menu-item{
+    display: block;
+}
+/* .menu-btn:hover ~ .menu-item {   
+    display: block;
+} */
+/* main content */
+.content{
+    height: calc(100vh - 150px);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.videoFile{
+    height: 100%;
+}
+/* footer */
+footer{
+    height: 70px;
+    background-color: rgb(238,238,238);
+}
