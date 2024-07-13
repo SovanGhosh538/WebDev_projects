@@ -39,14 +39,18 @@
         <div class="toast"></div>
     </div>
     <footer>
-        <div class="scroll-controls"></div>
+        <div class="scroll-controls">
+            <p>00:00</p>
+            <input type="range" value="0">
+            <p>--/--</p>
+        </div>
         <div class="play-controls">
-            <i class="fa-solid fa-play" id="play"></i>
-            <i class="fa-solid fa-pause" id="pause"></i>
-            <i class="fa-solid fa-backward" id="backward"></i>
-            <i class="fa-solid fa-stop" id="stop"></i>
-            <i class="fa-solid fa-forward" id="forward"></i>
-            <i class="fa-solid fa-expand" id="expand"></i>
+            <button id="play"><i class="fa-solid fa-play"></i></button>
+            <button id="pause"><i class="fa-solid fa-pause"></i></button>
+            <button id="backward"><i class="fa-solid fa-backward"></i></button>
+            <button id="stop"><i class="fa-solid fa-stop"></i></button>
+            <button id="forward"><i class="fa-solid fa-forward"></i></button>
+            <button id="expand"><i class="fa-solid fa-expand"></i></button>
         </div>
     </footer>
     <script src="./script.js"></script>

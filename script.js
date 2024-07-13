@@ -106,3 +106,45 @@ const fullscreenHandler= function(){
 
 fullScreen.addEventListener("click",fullscreenHandler);
 
+//play
+
+const play=document.querySelector("#play");
+
+const playHandler=function(){
+    const video=document.querySelector("video");
+    if(video===null)
+        return;
+    video.play();
+    play.style.display="none";
+    pause.style.display="block";
+}
+
+play.addEventListener("click",playHandler);
+
+//pause
+
+const pause=document.querySelector("#pause");
+
+const pauseHandler=function(){
+    const video=document.querySelector("video");
+    if(video===null)
+        return;
+    video.pause();
+    pause.style.display="none";
+    play.style.display="block";
+}
+
+pause.addEventListener("click",pauseHandler);
+
+//stop
+
+const stop=document.querySelector("#stop");
+
+const stopHandler=function(){
+    const video=document.querySelector("video");
+    if(video===null)
+        return;
+    main.removeChild(video);
+}
+
+stop.addEventListener("click",stopHandler);
