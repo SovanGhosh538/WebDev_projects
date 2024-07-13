@@ -95,3 +95,14 @@ const acceptInputHandler=function(obj){
 }
 
 openFile.addEventListener("change",acceptInputHandler);
+
+// controls
+// fullscreen
+const fullScreen=document.querySelector("#expand");
+
+const fullscreenHandler= function(){
+    main.requestFullscreen();
+}
+
+fullScreen.addEventListener("click",fullscreenHandler);
+
