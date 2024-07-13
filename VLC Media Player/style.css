@@ -69,6 +69,17 @@ header{
 .videoFile{
     height: 100%;
 }
+.toast{
+    height: 40px;
+    width: 70px;
+    position: absolute;
+    top: 90px;
+    right: 10px;
+    color: rgba(255, 255, 255, 0.489);
+    display: none;
+    padding-left: 20px;
+    padding-top: 20px;
+}
 /* footer */
 footer{
     height: 70px;
